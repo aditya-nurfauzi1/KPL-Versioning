@@ -8,19 +8,4 @@ public class Pemain {
 		this.nama = nama;
 		this.noPunggung = noPunggung;
 	}
-	
-	public void setNama(String nama) {
-		this.nama = nama;
-	}
-	
-	public String getNama() {
-		return nama;
-	}
-	public void setNoPunggung(int noPunggung) {
-		this.noPunggung = noPunggung;
-	}
-	
-	public int getNoPunggung() {
-		return noPunggung;
-	}
 }
