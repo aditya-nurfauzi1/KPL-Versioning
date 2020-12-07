@@ -44,4 +44,10 @@ public class Tim {
 		}
 	}
 
+	public void tampilPemainInti() {
+		for (int i = 0; i < pemainInti.size(); i++) {
+			Pemain p = pemainInti.get(i);
+			System.out.println(p.getNoPunggung()+ " # "+ p.getNama());
+		}
+	}
 }
